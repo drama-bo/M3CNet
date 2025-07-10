@@ -1,7 +1,17 @@
 ## Dataset Information
 The LMT texture dataset can be downloaded from:
 [https://zeus.lmt.ei.tum.de/downloads/texture](https://zeus.lmt.ei.tum.de/downloads/texture)
+## Dataset
 
+We use the preprocessed training and test sets from the LMT dataset:
+
+- **Training data**: `/Training/`
+  - Preprocessed texture images
+  - Official training split
+- **Test data**: `/Testing/`
+  - Preprocessed test images
+  - Official test split
+  
 ## Environment Setup
 This project requires the following Python environment:
 
