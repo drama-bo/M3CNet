@@ -133,6 +133,7 @@ class MultimodalDataset(Dataset):
         return acoustics, image, img_label
 
 
+
 """
 if __name__ == "__main__":
     # 创建图像和音频数据集
