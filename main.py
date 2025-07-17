@@ -170,6 +170,7 @@ if __name__ == "__main__":
     model.to(device)
 
 
+
     num_classes = 9
     batch_size = 16
     num_epochs = 200
