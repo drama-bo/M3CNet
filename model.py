@@ -303,6 +303,7 @@ class MultimodalClassificationModel(nn.Module):
 
 
 
+
 if __name__ == "__main__":
     model = MultimodalClassificationModel(num_classes=9)
     us_input = torch.randn(32, 10501, 1)
